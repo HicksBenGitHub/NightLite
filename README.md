@@ -4,9 +4,19 @@ Implements a Nightlight with configurable lighting and sound controls using the 
 See https://ootbrobotics.com/products/upad-2/ for a description of the uPAD 2.0 for information and availability.
 
 To interface with the uPAD 2.0, this project uses PuTTY.
-Windows donwload links:
+Windows download links:
 64-bit PuTTY: https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe
 32-bit PuTTY: https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe
+
+To write the program and data to the microcontroller, install Atmel Studio 7 following the guide linked below:
+http://atmel-studio-doc.s3-website-us-east-1.amazonaws.com/webhelp/GUID-54E8AE06-C4C4-430C-B316-1C19714D122B-en-US-1/index.html?GUID-8F63ECC8-08B9-4CCD-85EF-88D30AC06499
+
+To run NightLite, create a GCC C Executable Project.
+Then, move the downloaded source files into the project.
+Then, right-click project > Add > Add Existing > Select the source files and press OK / Apply.
+Then, navigate to Project > AVR/GNU C Compiler > Optimization > Set the optimization to None
+NOTE: For NightLite to run properly, the optimization of the GCC compiler MUST be set to (-O0) NONE.
+<How to setup programmer>
 
 Finally, some documentation about the ATxmega128A1U is linked below:
 
