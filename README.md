@@ -1,6 +1,11 @@
 # NightLite
 Implements a Nightlight with configurable lighting and sound controls using the ATxmega128A1U on an Out of the Box (OOTB) uPAD 2.0 as well as the Analog Backpack and an external power block (needed to power the speaker).
 
+## Demo Vid
+[![Watch the video](https://img.youtube.com/vi/ncC958c8t-s/maxresdefault.jpg)](https://www.youtube.com/watch?v=ncC958c8t-s&feature=youtu.be&ab_channel=BenHicks)
+
+
+
 See https://ootbrobotics.com/products/upad-2/ for a description of the uPAD 2.0 for information and availability.
 
 To interface with the uPAD 2.0, this project uses PuTTY.
